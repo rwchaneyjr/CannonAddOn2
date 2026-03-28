@@ -3,7 +3,7 @@
 public class CannonFire : MonoBehaviour
 {
     public GameObject cannonballPrefab;
-    public float bulletSpeed = 20f;
+    public float bulletSpeed = 80f;
 
     // 🔥 Now adjustable in Inspector (X, Y, Z)
    // public Vector3 spawnOffset = Vector3.zero;
@@ -60,7 +60,7 @@ public class CannonFire : MonoBehaviour
         */
 
         Vector3 adjustedSpawnPos = firePoint.position; //+ spawnOffset;
-        GameObject ball = Instantiate(cannonballPrefab, adjustedSpawnPos, Quaternion.identity);
+        GameObject ball = Instantiate(cannonballPrefab, firePoint.position, firePoint.rotation); //adjustedSpawnPos
         Rigidbody rb = ball.GetComponent<Rigidbody>();
         if (rb != null)
         {

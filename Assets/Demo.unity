@@ -237,16 +237,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9202304b6b7d88f4c89f3ab353bd443b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9202304b6b7d88f4c89f3ab353bd443b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9202304b6b7d88f4c89f3ab353bd443b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9202304b6b7d88f4c89f3ab353bd443b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.0522428
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9202304b6b7d88f4c89f3ab353bd443b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9202304b6b7d88f4c89f3ab353bd443b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.533478
+      value: -19.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9202304b6b7d88f4c89f3ab353bd443b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -309,6 +321,7 @@ GameObject:
   - component: {fileID: 1174769872}
   - component: {fileID: 1174769871}
   - component: {fileID: 1174769870}
+  - component: {fileID: 1174769874}
   m_Layer: 0
   m_Name: SteppingStone
   m_TagString: SteppingStone
@@ -402,6 +415,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1174769874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174769869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e185273e8e8a92f4686f47a5aca90818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannonPrefab: {fileID: 6532173394147272765, guid: f3385c677a3d95142861739d1f64a015, type: 3}
+  mainCamera: {fileID: 1989318694}
 --- !u!1 &1723084311
 GameObject:
   m_ObjectHideFlags: 0
