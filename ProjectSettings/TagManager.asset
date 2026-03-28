@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SteppingStone
   - firePoint
+  - Rat
   layers:
   - Default
   - TransparentFX
