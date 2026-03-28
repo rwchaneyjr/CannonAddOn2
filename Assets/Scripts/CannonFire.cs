@@ -6,7 +6,7 @@ public class CannonFire : MonoBehaviour
     public float bulletSpeed = 20f;
 
     // 🔥 Now adjustable in Inspector (X, Y, Z)
-    public Vector3 spawnOffset = Vector3.zero;
+   // public Vector3 spawnOffset = Vector3.zero;
 
     private Transform firePoint;
 
@@ -52,14 +52,15 @@ public class CannonFire : MonoBehaviour
         }
 
         // 🔥 NEW: adjustable local offset
-        Vector3 adjustedSpawnPos =
-            firePoint.position
-            + firePoint.right * spawnOffset.x
-            + firePoint.up * spawnOffset.y
-            + firePoint.forward * spawnOffset.z;
+        /* Vector3 adjustedSpawnPos =
+             firePoint.position
+             + firePoint.right * spawnOffset.x
+             + firePoint.up * spawnOffset.y
+             + firePoint.forward * spawnOffset.z;
+        */
 
-        GameObject ball = Instantiate(cannonballPrefab, adjustedSpawnPos, firePoint.rotation);
-
+        Vector3 adjustedSpawnPos = firePoint.position; //+ spawnOffset;
+        GameObject ball = Instantiate(cannonballPrefab, adjustedSpawnPos, Quaternion.identity);
         Rigidbody rb = ball.GetComponent<Rigidbody>();
         if (rb != null)
         {
