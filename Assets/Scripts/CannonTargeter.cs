@@ -10,23 +10,23 @@ public class CannonTargeter : MonoBehaviour
 
     void Update()
     {
-        GameObject[] rats = GameObject.FindGameObjectsWithTag("Rat");
-        Transform nearestRat = null;
+        GameObject[] targets = GameObject.FindGameObjectsWithTag("target");
+        Transform nearestTarget = null;
         float minDist = Mathf.Infinity;
 
-        foreach (GameObject rat in rats)
+        foreach (GameObject target in targets)
         {
-            float dist = Vector3.Distance(transform.position, rat.transform.position);
+            float dist = Vector3.Distance(transform.position,target.transform.position);
             if (dist < minDist && dist < range)
             {
                 minDist = dist;
-                nearestRat = rat.transform;
+                nearestTarget = target.transform;
             }
         }
 
-        if (nearestRat != null)
+        if (nearestTarget != null)
         {
-            Vector3 direction = nearestRat.position - transform.position;
+            Vector3 direction = nearestTarget.position - transform.position;
             direction.y = 0; // Keep rotation horizontal
             Quaternion targetRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);

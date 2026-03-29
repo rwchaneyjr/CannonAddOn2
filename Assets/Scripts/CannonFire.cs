@@ -3,7 +3,7 @@
 public class CannonFire : MonoBehaviour
 {
     public GameObject cannonballPrefab;
-    public float bulletSpeed = 80f;
+    public float bulletSpeed = 600f;
 
     // 🔥 Now adjustable in Inspector (X, Y, Z)
    // public Vector3 spawnOffset = Vector3.zero;
@@ -64,7 +64,7 @@ public class CannonFire : MonoBehaviour
         Rigidbody rb = ball.GetComponent<Rigidbody>();
         if (rb != null)
         {
-            rb.velocity = firePoint.forward * bulletSpeed;
+            rb.AddForce(firePoint.forward * bulletSpeed, ForceMode.Impulse);
         }
         else
         {

@@ -25,6 +25,9 @@ public class CannonSpawner : MonoBehaviour
                     Instantiate(cannonPrefab, spawnPosition, Quaternion.identity);
                 }
             }
+#if UNITY_EDITOR
+UnityEditor.Selection.activeGameObject = hit.collider.gameObject;
+#endif
         }
     }
 }
