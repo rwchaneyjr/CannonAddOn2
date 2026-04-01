@@ -1,0 +1,653 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aEDbg.dag/asset-store-tools-editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aEDbg.dag/asset-store-tools-editor.ref.dll"
+-define:UNITY_2022_3_21
+-define:UNITY_2022_3
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.12.4/Lib/Editor/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.12.4/Lib/Editor/TextMateSharp/Onigwrap/OnigwrapPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.12.4/Lib/Editor/TextMateSharp/TextMateSharpPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.12.4/Lib/Editor/TextMateSharp/TextMateSharpPlastic.Grammars.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.12.4/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.12.4/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.12.4/Lib/Editor/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/AuthenticationBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAssetStoreApi.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAssetStoreClient.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IAuthenticationType.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/IPackageUploader.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Abstractions/PackageUploaderBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/ApiUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/AssetStoreApi.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/AssetStoreClient.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/CloudTokenAuthentication.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/CredentialsAuthentication.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Models/Category.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Models/Package.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Models/PackageAdditionalData.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Models/User.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/AssetStoreResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/AssetStoreToolsVersionResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/AuthenticationResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/CategoryDataResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackagesAdditionalDataResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackagesDataResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackageThumbnailResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/PackageUploadedUnityVersionDataResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/RefreshedPackageDataResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/Responses/UploadResponse.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/SessionAuthentication.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/UnityPackageUploader.cs"
+"Packages/com.unity.asset-store-tools/Editor/Api/UploadStatus.cs"
+"Packages/com.unity.asset-store-tools/Editor/AssemblyInfo.cs"
+"Packages/com.unity.asset-store-tools/Editor/AssetStoreTools.cs"
+"Packages/com.unity.asset-store-tools/Editor/AssetStoreToolsWindow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Constants.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/IPackageExporter.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/IPreviewInjector.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/PackageExporterBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/Abstractions/PackageExporterSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/DefaultExporterSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/DefaultPackageExporter.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/LegacyExporterSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/LegacyPackageExporter.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/PackageExporterResult.cs"
+"Packages/com.unity.asset-store-tools/Editor/Exporter/PreviewInjector.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/CustomPreviewGenerationSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/FileNameFormat.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/GenerationType.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/NativePreviewGenerationSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewDatabase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewFormat.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewGenerationResult.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewGenerationSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Data/PreviewMetadata.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/AudioChannel.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/AudioChannelCoordinate.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/ISceneScreenshotter.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/MaterialScreenshotter.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/MeshScreenshotter.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/SceneScreenshotterBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/Screenshotters/SceneScreenshotterSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/AudioTypeGeneratorSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/AudioTypePreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/ITypePreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/MaterialTypePreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/ModelTypePreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/PrefabTypePreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TextureTypeGeneratorSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TextureTypePreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypeGeneratorSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorFromScene.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/Custom/TypeGenerators/TypePreviewGeneratorFromSceneSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/CustomPreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/IPreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/NativePreviewGenerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Generators/PreviewGeneratorBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/Caching/CachingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/Caching/ICachingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/IPreviewService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Services/PreviewServiceProvider.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/AssetPreview.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/AssetPreviewCollection.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IAssetPreview.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IAssetPreviewCollection.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/IPreviewGeneratorSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Data/PreviewGeneratorSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/AssetPreviewElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/GridListElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewCollectionElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGenerateButtonElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGeneratorPathsElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewGeneratorSettingsElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Elements/PreviewWindowDescriptionElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/PreviewGeneratorWindow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/UI/Views/PreviewListView.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/GraphicsUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/PreviewConvertUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/PreviewSceneUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/RenderPipeline.cs"
+"Packages/com.unity.asset-store-tools/Editor/Previews/Scripts/Utility/RenderPipelineUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackage.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackageContent.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IPackageGroup.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IWorkflow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/IWorkflowServices.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Abstractions/WorkflowBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/AssetsWorkflow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/HybridPackageWorkflow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Package.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageContent.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageGroup.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/PackageSorting.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/AssetPath.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/AssetsWorkflowStateData.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/HybridPackageWorkflowState.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/UnityPackageWorkflowStateData.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/Serialization/WorkflowStateData.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/UnityPackageWorkflow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Data/WorkflowServices.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/AnalyticsService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/AuthenticationAnalytic.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/BaseAnalytic.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/IAssetStoreAnalytic.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/IAssetStoreAnalyticData.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/PackageUploadAnalytic.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/Data/ValidationResultsSerializer.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Analytics/IAnalyticsService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/AuthenticationService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IAuthenticationService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IPackageDownloadingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/IPackageUploadingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/PackageDownloadingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Api/PackageUploadingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Caching/CachingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/Caching/ICachingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/IUploaderService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/PackageFactory/IPackageFactoryService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/PackageFactory/PackageFactoryService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/Services/UploaderServiceProvider.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/Abstractions/ValidationElementBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/Abstractions/WorkflowElementBase.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/AccountToolbar.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/AssetsWorkflowElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/CurrentProjectValidationElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/ExternalProjectValidationElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/HybridPackageWorkflowElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/LoadingSpinner.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/MultiToggleSelectionElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageContentElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageGroupElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageListToolbar.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PackageUploadElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PathSelectionElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/PreviewGenerationElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Elements/UnityPackageWorkflowElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Views/LoginView.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/Scripts/UI/Views/PackageListView.cs"
+"Packages/com.unity.asset-store-tools/Editor/Uploader/UploaderWindow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/ASDebug.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/ASToolsPreferences.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/ASToolsUpdater.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/CacheUtil.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/FileUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/LegacyToolsRemover.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/PackageUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/ServiceProvider.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/StyleSelector.cs"
+"Packages/com.unity.asset-store-tools/Editor/Utility/SymlinkUtil.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Categories/CategoryEvaluator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Categories/ValidatorCategory.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/CurrentProjectValidator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/CurrentProjectValidationSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ExternalProjectValidationSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/HighlightObjectAction.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/IMessageAction.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/MessageActions/OpenAssetAction.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResult.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultMessage.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultObject.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/TestResultStatus.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationResult.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationStatus.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Data/ValidationType.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/ExternalProjectValidator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/IValidator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/CachingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/ICachingService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/CachingService/PreviewDatabaseContractResolver.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/IValidatorService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IAssetUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IFileSignatureUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IMeshUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IModelUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/ISceneUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Abstractions/IScriptUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/AssetUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/ArchiveType.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/AssetEnumerator.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/AssetType.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/Data/LogEntry.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/FileSignatureUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/MeshUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/ModelUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/SceneUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/Validation/ScriptUtilityService.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Services/ValidatorServiceProvider.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/AutomatedTest.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/GenericTestConfig.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ITestConfig.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ITestScript.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/AutomatedTestScriptableObject.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/Editor/ValidationTestScriptableObjectInspector.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/Scriptable Objects/ValidationTestScriptableObject.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Definitions/ValidationTest.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckAnimationClips.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckAudioClipping.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckColliders.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckCompressedFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckEmptyPrefabs.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckFileMenuNames.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckLineEndings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckLODs.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMeshPrefabs.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMissingComponentsinAssets.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckMissingComponentsinScenes.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelImportLogs.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelOrientation.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckModelTypes.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckNormalMapTextures.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPackageNaming.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckParticleSystems.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPathLengths.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckPrefabTransforms.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckScriptCompilation.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckShaderCompilation.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckTextureDimensions.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/CheckTypeNamespaces.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveExecutableFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveJavaScriptFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveJPGFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveLossyAudioFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveMixamoFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveSpeedTreeFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/Generic/RemoveVideoFiles.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckDemoScenes.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckDocumentation.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckPackageSize.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Test Methods/UnityPackage/CheckProjectTemplateAssets.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorResults.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorTest.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Abstractions/IValidatorTestGroup.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateData.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateDataContractResolver.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateResults.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/Serialization/ValidatorStateSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorResults.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorSettings.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorTest.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Data/ValidatorTestGroup.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorButtonElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorDescriptionElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorPathsElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorResultsElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorSettingsElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorTestElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Elements/ValidatorTestGroupElement.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/ValidatorWindow.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/UI/Views/ValidatorTestsView.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/Utility/ValidatorUtility.cs"
+"Packages/com.unity.asset-store-tools/Editor/Validator/Scripts/ValidatorBase.cs"
+-langversion:9.0
+
+/deterministic
+/optimize-
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+
+
+
+/additionalfile:"Library/Bee/artifacts/1900b0aEDbg.dag/asset-store-tools-editor.UnityAdditionalFile.txt"

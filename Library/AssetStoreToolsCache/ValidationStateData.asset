@@ -1,0 +1,566 @@
+{
+  "validation_settings": {
+    "category": "Templates",
+    "validation_type": "UnityPackage",
+    "validation_paths": [
+      "Assets/LearningLoop"
+    ]
+  },
+  "validation_results": {
+    "validation_status": "RanToCompletion",
+    "test_results": {
+      "1": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "Demo scenes found",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-a567af623a3b01e45b66b7803a7048d0-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-2ac8cf212df6445e8aebbe3cb832e993-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-251716609f634449bfe8ce75c0ed78fe-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-21a509e1d3cd49978623fa564adb6f02-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-8f7137eacd7042d5b17ef0efe5e744f5-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-70615243e2be4a81afaab9bf5d273d65-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-39a1fa96ad2a449b908fca29d4297a74-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-03ec435d4b7140e9b2d87f79136d8374-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-5fe2257128d9401fad0790f581dc8a6f-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-349f38d3606449708c7340d26740e1e2-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-c3f814e1d12c45568daf3dd9a86a0e61-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-84ed36ad77dd4956b2ffe3769f759879-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-9747140c28254be2adc582210dfb89b8-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-08572ab7713642c8a60789750f0bce5c-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-875684baf40f4d008ce806d03e2a81b2-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-22a2fba786ad4c40ac0ba09f0b933100-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-e76e6c0f81964cbda3fe0b7d26ed8060-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-9442cda25baa4a0bb544c4d095b00caa-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-3e2e4d7b0bed4cf9ab827e9f32448f69-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-03f9d74cec8e4b94a29d2dfd177c821b-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-9abcd5bd764646568a6ea70d00f9264c-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-337f92480dd24675aae9e79210fb1ad9-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-50f52f9274434ecfb34dd87f0836f323-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-6250f98e58fe4abbaada5d84b7ca846d-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-54e994244b4b467e8583cf2da6dcc716-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-8c4969fd8ba94a68b07cf11f3e7a5137-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-f9b4c22e15cff344ba9fc6542a58dd07-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-0851605490a599b46b6ac5cb681d93ea-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-16177da2e3254cee91944756d5f8ddd3-102900000-0"
+              }
+            ],
+            "click_action": null
+          }
+        ]
+      },
+      "2": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All found prefabs have meshes!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "3": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All found prefabs were reset!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "4": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All found prefabs have colliders!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "5": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No empty prefabs were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "6": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "Found documentation files",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-1b8d251f9af63b746bf2f7ffe00ebb9b-102900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-73a79399807f4e8388c2cbb5494681ca-4900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-efe0bf4ac872451e91612d1ae593f480-4900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-d2cf87a8a7a94aa8b80dff1c807c1178-4900000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-6e59c59b81ab47f9b6ec5781fa725d2c-4900000-0"
+              }
+            ],
+            "click_action": null
+          }
+        ]
+      },
+      "7": {
+        "status": "Warning",
+        "messages": [
+          {
+            "text": "The following models have incorrect rotation",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-5ac38da0f6eb16c4fa5ab4abece7b81e-919132149155446097-0"
+              }
+            ],
+            "click_action": null
+          }
+        ]
+      },
+      "8": {
+        "status": "Warning",
+        "messages": [
+          {
+            "text": "The following textures are compressed as JPG/JPEG",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-f88677df267a41d6be1e7a6133e7d227-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-283f897e4925411ebbaa758b4cb13fc2-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-85ac55597b97403c82fc6601a93cf241-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-1cdc5b506b1a4a33a53c30669ced1f51-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-2ce5c55e85304b819a1826ecbc839aa5-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-6eb184de103d4b3f812b38561065192f-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-03d0538de6e24c0f819bfc9ce084dfa9-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-602cb87b6a29443b8636370ea0751574-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-8878a782f4334ecbbcf683b3ac780966-2800000-0"
+              },
+              {
+                "object_global_id": "GlobalObjectId_V1-1-17c350171f7a3ca479f830547c66d187-2800000-0"
+              }
+            ],
+            "click_action": null
+          }
+        ]
+      },
+      "9": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No assets have missing components!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "10": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No missing components were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "11": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No UnityScript / JS files were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "12": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No lossy audio files were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "13": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No video files were found, looking good!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "14": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No executable files were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "15": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No Mixamo files were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "16": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No SpeedTree assets have been found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "17": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All found prefabs are meeting the LOD requirements!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "18": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All found Shaders have no compilation errors!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "19": {
+        "status": "Warning",
+        "messages": [
+          {
+            "text": "The following scripts contain types not nested under a namespace:",
+            "message_objects": [],
+            "click_action": null
+          },
+          {
+            "text": "class Cannonball",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-319f66a567d1d4c47a3e199965c3a536-11500000-0"
+              }
+            ],
+            "click_action": null
+          },
+          {
+            "text": "class CannonFire",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-1de195cb54e20a54dbb48bc44b67f064-11500000-0"
+              }
+            ],
+            "click_action": null
+          },
+          {
+            "text": "class CannonSpawner",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-e185273e8e8a92f4686f47a5aca90818-11500000-0"
+              }
+            ],
+            "click_action": null
+          },
+          {
+            "text": "class CannonTargeter",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-14dccea8234c72842a20c446f2c4229e-11500000-0"
+              }
+            ],
+            "click_action": null
+          },
+          {
+            "text": "class ChatController",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-53d91f98a2664f5cb9af11de72ac54ec-11500000-0"
+              }
+            ],
+            "click_action": null
+          },
+          {
+            "text": "class DropdownSample:",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-ac1eb05af6d391b4eb0f4c070a99f1d0-11500000-0"
+              }
+            ],
+            "click_action": null
+          },
+          {
+            "text": "class EnvMapAnimator",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-a4b6f99e8bc54541bbd149b014ff441c-11500000-0"
+              }
+            ],
+            "click_action": null
+          }
+        ]
+      },
+      "20": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No scripts with inconsistent line endings were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "21": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No MenuItems with invalid names were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "22": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No archives were found in the package content!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "23": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All models are of allowed formats!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "24": {
+        "status": "Warning",
+        "messages": [
+          {
+            "text": "The following texture dimensions are not a power of 2:",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-c76d18757a194d618355f05f815cb0a1-2800000-0"
+              }
+            ],
+            "click_action": null
+          }
+        ]
+      },
+      "25": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No Particle Systems without Prefabs were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "26": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All normal map textures have the correct texture type!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "27": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No clipping audio files were detected.",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "28": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All package content matches the path limit criteria!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "29": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All scripts in the project compiled successfully!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "30": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "Your package does not exceed the maximum allowed package size!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "31": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No animation clips with invalid names were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "32": {
+        "status": "Warning",
+        "messages": [
+          {
+            "text": "The following models contain import warnings:",
+            "message_objects": [
+              {
+                "object_global_id": "GlobalObjectId_V1-1-5ac38da0f6eb16c4fa5ab4abece7b81e-919132149155446097-0"
+              }
+            ],
+            "click_action": null
+          }
+        ]
+      },
+      "33": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "All package asset names are valid!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      },
+      "34": {
+        "status": "Pass",
+        "messages": [
+          {
+            "text": "No common assets that might cause asset clashing were found!",
+            "message_objects": [],
+            "click_action": null
+          }
+        ]
+      }
+    },
+    "project_path": "C:/Users/rober/CannonAddon",
+    "had_compilation_errors": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "package_id": "370370",
+  "active_workflow": "AssetsWorkflow",
+  "assets_workflow": {
+    "main_path": {
+      "path": "Assets/LearningLoop",
+      "guid": "2c2b0bf7c72983349bd757b74d13191d"
+    },
+    "special_folders": [],
+    "include_dependencies": false,
+    "dependencies": []
+  },
+  "unitypackage_workflow": {
+    "package_path": {
+      "path": "",
+      "guid": ""
+    }
+  },
+  "hybrid_workflow": {
+    "package_name": "",
+    "dependencies": []
+  }
+}

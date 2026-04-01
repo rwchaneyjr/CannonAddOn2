@@ -1,0 +1,79 @@
+CANNON DEFENSE SYSTEM
+Version 1.0
+
+----------------------------------------
+OVERVIEW
+----------------------------------------
+This package provides a simple cannon defense system for Unity.
+
+Features include:
+- Click-to-place cannon spawning
+- Automatic enemy targeting
+- Projectile shooting system
+- Collision-based enemy destruction
+
+----------------------------------------
+SETUP INSTRUCTIONS
+----------------------------------------
+
+1. Open the Demo Scene:
+   Assets/CannonDefenseSystem/Scenes/DemoScene.unity
+
+2. Ensure required tags are set:
+   - "SteppingStone" for placement surfaces
+   - "Rat" (or "Target") for enemies
+
+3. Select the GameObject with the CannonSpawner script:
+   - Assign Main Camera
+   - Assign Cannon Prefab
+
+4. Press Play
+
+5. Click on a SteppingStone to spawn a cannon
+
+6. Press Spacebar to fire cannonball
+----------------------------------------
+HOW IT WORKS
+----------------------------------------
+
+- CannonSpawner:
+  Handles mouse input and places cannons on valid surfaces
+
+- CannonTarget:
+  Finds the nearest enemy using tags and rotates toward it
+
+- CannonFire:
+  Spawns cannonballs toward the target
+
+- Cannonball:
+  Detects collision and destroys enemy objects
+
+----------------------------------------
+CUSTOMIZATION
+----------------------------------------
+
+You can easily modify:
+
+- Fire rate (CannonFire script)
+- Projectile speed (Cannonball script)
+- Targeting range (CannonTarget script)
+- Placement behavior (CannonSpawner script)
+
+----------------------------------------
+NOTES
+----------------------------------------
+
+- This system uses Unity Physics (Rigidbody + Collider)
+- All scripts are written in C#
+- Designed for simplicity and easy expansion
+
+----------------------------------------
+SUPPORT
+----------------------------------------
+
+If you have questions or issues, please contact:
+https://github.com/rwchaneyjr
+
+----------------------------------------
+END
+----------------------------------------
